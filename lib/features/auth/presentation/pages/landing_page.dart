@@ -49,8 +49,8 @@ class _LandingPageState extends State<LandingPage> {
       bottomSheet: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height - 430,
-        decoration: BoxDecoration(
-          borderRadius: const BorderRadius.only(
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.only(
             topRight: Radius.circular(
               100,
             ),
@@ -176,7 +176,7 @@ class _LandingPageState extends State<LandingPage> {
                         30,
                       ),
                     ),
-                    color: CustomColors.orangeColor,
+                    color: CustomColors.greencolor,
                   ),
                   child: Stack(
                     alignment: const Alignment(0, 0),
@@ -198,7 +198,7 @@ class _LandingPageState extends State<LandingPage> {
                                       ? 1
                                       : 0,
                           color: CustomColors.lightColor,
-                          backgroundColor: CustomColors.orangeColor,
+                          backgroundColor: CustomColors.greencolor,
                         ),
                       ),
                     ],

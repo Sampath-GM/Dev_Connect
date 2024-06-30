@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:social/core/theme/colors.dart';
+import 'package:social/features/auth/presentation/pages/chatpage.dart';
+import 'package:social/features/auth/presentation/pages/homepage.dart';
 
 class AuthenticationPage extends StatelessWidget {
   const AuthenticationPage({super.key});
@@ -18,7 +20,7 @@ class AuthenticationPage extends StatelessWidget {
       bottomSheet: Container(
         height: 400,
         decoration: BoxDecoration(
-          color: CustomColors.orangeColor,
+          color: CustomColors.greencolor,
           borderRadius: const BorderRadius.only(
             topLeft: Radius.circular(
               60,
@@ -51,17 +53,31 @@ class AuthenticationPage extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(top: 10, bottom: 10 ),
                       child: Image.asset(
-                        "assets/git-icon.png",
+                        "assets/th.jpeg",
                         width: 60,
                       ),
                     ),
-                    Text(
-                      "GitHub",
-                      style: GoogleFonts.varelaRound(
-                        fontSize: 28,
+                    // Text(
+                    //   "GitHub",
+                    //   style: GoogleFonts.varelaRound(
+                    //     fontSize: 28,
+                    //     fontWeight: FontWeight.bold,
+                    //     color: CustomColors.orangeColor,
+                    //   ),
+                    // )
+                    ElevatedButton(onPressed: (){
+                      
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Homepage()));
+
+                    }, child: Text(
+                      "Github",
+                      style: TextStyle(
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: CustomColors.orangeColor,
+                        color: CustomColors.greencolor,
                       ),
+
+                    ),
                     )
                   ],
                 ),
@@ -86,7 +102,7 @@ class AuthenticationPage extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   side: const BorderSide(
                       color: CustomColors.lightColor, width: 3),
-                  backgroundColor: CustomColors.orangeColor,
+                  backgroundColor: CustomColors.greencolor,
                   surfaceTintColor: CustomColors.transparantColor,
                   shadowColor: CustomColors.transparantColor,
                   shape: RoundedRectangleBorder(

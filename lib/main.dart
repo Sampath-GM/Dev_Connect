@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social/core/theme/theme.dart';
-import 'package:social/features/auth/presentation/pages/chatting.dart';
+import 'package:social/features/auth/presentation/pages/chatpage.dart';
 import 'package:social/features/auth/presentation/pages/homepage.dart';
 import 'package:social/features/auth/presentation/pages/landing_page.dart';
 import 'package:social/features/auth/presentation/pages/signup.dart';
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const Homepage(),
+      home: const LandingPage(),
       title: "Devz",
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       // darkTheme: ApplicationTheme.darkTheme,

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177947963313",
+    "project_id": "dev-connect-ceb8a",
+    "storage_bucket": "dev-connect-ceb8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177947963313:android:0c790161326f3bd7c99790",
+        "android_client_info": {
+          "package_name": "com.harshRajpurohit.we_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlGFdQCo3bIXGa8_R3IwAGQObSsWHvcqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

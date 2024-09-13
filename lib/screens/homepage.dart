@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:we_chat/screens/home_screen.dart';
 import 'package:we_chat/screens/technews.dart';
-import 'package:we_chat/screens/videocall.dart';
+import 'package:we_chat/screens/video_home.dart';
 import '../core/theme/colors.dart';
 // import 'package:social/features/auth/presentation/pages/contactList.dart';
 // import 'package:social/features/auth/presentation/pages/technews.dart';

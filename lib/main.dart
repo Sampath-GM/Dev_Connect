@@ -6,7 +6,7 @@ import 'package:flutter_notification_channel/flutter_notification_channel.dart';
 import 'package:flutter_notification_channel/notification_importance.dart';
 import 'package:we_chat/screens/homepage.dart';
 import 'package:we_chat/screens/landing_page.dart';
-import 'package:we_chat/api/apis.dart';  // Make sure to import your API file
+// import 'package:we_chat/api/apis.dart';  // Make sure to import your API file
 
 import 'firebase_options.dart';
 
